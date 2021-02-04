@@ -1,0 +1,55 @@
+{
+  "Name": "YoutubeMusic",
+  "CreationDate": "2021-2-4",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://music.youtube.com/library/uploaded_albums",
+      "Value": ""
+    },
+    {
+      "Command": "times",
+      "Target": "10",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[2]/ytmusic-two-row-item-renderer/a/ytmusic-item-thumbnail-overlay-renderer/ytmusic-menu-renderer/paper-icon-button/iron-icon",
+      "Value": "",
+      "Targets": [
+        "id=icon",
+        "xpath=//*[@id=\"icon\"]",
+        "xpath=//div[2]/ytmusic-two-row-item-renderer/a/ytmusic-item-thumbnail-overlay-renderer/ytmusic-menu-renderer/paper-icon-button/iron-icon",
+        "css=#icon"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "linkText=Album löschen",
+      "Value": "",
+      "Targets": [
+        "linkText=Album löschen",
+        "id=navigation-endpoint",
+        "xpath=//*[@id=\"navigation-endpoint\"]",
+        "xpath=//ytmusic-menu-navigation-item-renderer[4]/a",
+        "css=#navigation-endpoint"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//yt-button-renderer[2]/a/paper-button",
+      "Value": "",
+      "Targets": [
+        "id=button",
+        "xpath=//*[@id=\"button\"]",
+        "xpath=//yt-button-renderer[2]/a/paper-button",
+        "css=#button"
+      ]
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": ""
+    }
+  ]
+}
