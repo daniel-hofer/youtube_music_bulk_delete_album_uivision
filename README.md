@@ -14,3 +14,4 @@ Feel free to set the timer higher.
       "Value": ""
     },
     
+Addes jason for titles to delete titles are not in albums.
