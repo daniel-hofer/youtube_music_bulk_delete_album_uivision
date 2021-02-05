@@ -1,0 +1,55 @@
+{
+  "Name": "YoutubeMusic-Title",
+  "CreationDate": "2021-2-5",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://music.youtube.com/library/uploaded_songs",
+      "Value": ""
+    },
+    {
+      "Command": "times",
+      "Target": "5000",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//ytmusic-responsive-list-item-renderer[2]/ytmusic-menu-renderer/paper-icon-button/iron-icon",
+      "Value": "",
+      "Targets": [
+        "id=icon",
+        "xpath=//*[@id=\"icon\"]",
+        "xpath=//ytmusic-responsive-list-item-renderer[2]/ytmusic-menu-renderer/paper-icon-button/iron-icon",
+        "css=#icon"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "linkText=Titel löschen",
+      "Value": "",
+      "Targets": [
+        "linkText=Titel löschen",
+        "id=navigation-endpoint",
+        "xpath=//*[@id=\"navigation-endpoint\"]",
+        "xpath=//ytmusic-menu-navigation-item-renderer[2]/a",
+        "css=#navigation-endpoint"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//yt-button-renderer[2]/a/paper-button",
+      "Value": "",
+      "Targets": [
+        "id=button",
+        "xpath=//*[@id=\"button\"]",
+        "xpath=//yt-button-renderer[2]/a/paper-button",
+        "css=#button"
+      ]
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": ""
+    }
+  ]
+}
