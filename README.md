@@ -1,5 +1,5 @@
 # youtube_music_bulk_delete_album_uivision
-[My image](username.github.com/repository/2021-02-05 15_17_24-Window.png)
+[My image](daniel-hofer.github.com/repository/youtube_music_bulk_delete_album_uivision/2021-02-05 15_17_24-Window.png)
 Macro for UI.Vision to delete Albums from own library on music.youtube.com
 
 You neet the browser extention UI.Vision - tested it with google chrome.
